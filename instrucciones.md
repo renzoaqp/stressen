@@ -21,3 +21,6 @@ pip install -r requirements.txt
 ```
 
 # Ejecutar la multiplicación de matrices
+```python
+python .\strassen_v2.py
+```

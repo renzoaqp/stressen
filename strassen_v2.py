@@ -108,7 +108,8 @@ def plot_results(matrix_sizes, strassen_times, traditional_times):
 if __name__ == "__main__":
     # Tamaños de matrices a probar (potencias de 2 para Strassen)
     #matrix_sizes = [16, 32, 64, 128, 256, 512]  # Puedes agregar 1024 si tu PC lo soporta
-    matrix_sizes = [2, 4, 16, 32, 64,128,256,512] 
+    #matrix_sizes = [2, 4, 16, 32, 64,128,256,512] 
+    matrix_sizes = [128,256,512] 
     
     print("Iniciando benchmark...")
     strassen_times, traditional_times = benchmark(matrix_sizes)
